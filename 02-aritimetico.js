@@ -23,3 +23,13 @@ var Minhavariavel = 10;
 var outravariavel = 20;
 const _minhaConstrante = 3.1514;
 var $minhavariavel = 11;
+
+var v1 = 10;
+var v2 = 3;
+console.log("---------------------------------");
+console.log("valores: v1=", v1, " | v2 =", v2);
+console.log("---------------------------------");
+console.log("Resto da divisão inteira: v1 % v2 =", v1 % v2);
+console.log("Exponenciação: v1**v2 (v1 elevado á v2) =", v1 ** v2);
+
+// saldo = salodo + 20 ou saldo +=20
