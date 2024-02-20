@@ -18,15 +18,14 @@ console.log("O volume do retângulo é:", comprimento * largura * altura);
 var a = 2;
 var b = 3;
 var c = -1;
-console.log("o valor de delta é:",  b ** 2 - 4 * a * c);
+console.log("o valor de delta é:", b ** 2 - 4 * a * c);
 
 var valor = 450;
+var desconto = 3 / 100;
+var valdesc = valor * desconto;
 
-var desconto = 3;
-
-console.log("o desconto vai ser:", (valor * desconto) / 100);
-var pd = 13.5;
-console.log("o valor final da compra será:", valor - pd);
+console.log("o desconto vai ser:", + valdesc );
+console.log("o valor final da compra será:", valor - valdesc);
 
 var vm = 95;
 var t = 3.5;
