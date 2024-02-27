@@ -13,7 +13,7 @@ console.log(dinos); //retorna todos os itens do array
 console.log(dinos[0]); // retorna o primeiro indice do array
 console.log(""); // pular linha
 console.table(dinos); // cria tabela com os itens do array
-console.log("o vetor tem ", dinos.length, "elementos"); //mostrar quantidade de itens
+console.log("o vetor tem ", dinos.length, "elementos"); //mostrar quantidade de itens do array
 
 //adicionando elementos ao vetor existente
 
@@ -42,3 +42,30 @@ console.table(dinos);
 
 dinos.splice(1, 1);//remove o elemento a partir do indice 1,contando 1
 console.table(dinos); 
+
+console.log("")
+console.log("------------------------continuação da aula------------------------------");
+var dinos =[
+    "triceratops",
+    "Tiranossauro",
+    "Estegossaro",
+    "arquilossauro",
+    "Brontossauro",
+    "ictiossauro",
+    "pterodáctilo",
+    "espionossauro",
+];
+
+console.table(dinos);
+
+var elementoprocurado = "Brontossauro";
+var posicao = dinos.indexOf(elementoprocurado);//
+console.log("O " + elementoprocurado + "esta no indíce " + posicao);
+
+//copia de array (vetor)
+var copia1 = dinos.slice();
+console.log("vetor cópia 1");
+console.table(copia1);
+
+var copia2 = dinos.slice(1, 3);// .slice(1,3) determino onde começa e onde termina a copia
+console.log("vetor copia 2")
