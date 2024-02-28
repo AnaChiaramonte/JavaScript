@@ -1,7 +1,7 @@
 function idade(ano1) {
   return 2024 - ano1;
 }
-console.log(`A pessoa tem a idade de: ${idade(2007)}`);
+console.log(`A pessoa tem a idade: ${idade(2007)}`);
 
 //exercício dois
 function combustivel(litros, km) {
