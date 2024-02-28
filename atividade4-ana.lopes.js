@@ -22,11 +22,7 @@ var cadastro = [
   "Cristal",
 ];
 console.log("Ola!", cadastro[0], "Seja bem-vindo ao nosso sistema");
-console.log(
-  "Você mora no endereço",
-  cadastro[4],
-  "e tem um pet chamado",
-  cadastro[5]
-);
+console.log("Você mora no endereço", cadastro[4], "e tem um pet chamado", cadastro[5]);
 console.log("Sua idade é", cadastro[1], "e gosta muito da fruta", cadastro[3]);
 console.log("Sua cor favorita é", cadastro[2], ".");
+
