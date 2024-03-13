@@ -20,6 +20,16 @@ function votar(idade) {
   else console.log(`você não pode votar`);
 }
 
+//ou
+
+// function votar(idade) {
+//   idade >= 16
+//     ? console.log(`você pode votar ,mas não é obrigado`)
+//     : console.log(`você não pode votar`);
+// }
+// votar(13);
+
+
 function votacao(idade) {
   switch (true) {
     case idade < 16:

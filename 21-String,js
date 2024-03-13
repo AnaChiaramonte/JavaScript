@@ -1,0 +1,76 @@
+//variaveis de tipo string (texto)
+
+var texto = "Olá, eu sou um texto!";
+console.log(texto);
+
+//concatenaçaõ de Strings (soma de textos)
+
+var texto = "Olá, ";
+var texto2 = "eu sou um texto!";
+//pode fazer de duas maneira, dessa :
+var texto3 = texto + texto2;
+console.log(texto3);
+//ou dessa:
+texto += texto2;
+console.log(texto);
+
+//tamanho da String (método length)
+
+var texto4 = "Olá, meu nome é Ana!";
+console.log(`Tamanho do texto: ${texto4.length}caracteres!`); // . length ver a quantidade ou tamanho
+
+//caracteres de escape
+
+var texto5 = 'Olá, meu nome é "Ana"!'; // imprimir " " é so colocar \\ (barras)
+console.log(texto5);
+
+var texto6 = "Quebra de linha \n outra linha";
+console.log(texto6);
+
+var texto7 = "Tabulação \toutra tabulação";
+console.log(texto7);
+
+//obtendo partes de uma string (método subtring)
+
+var texto8 = "O esperto rato, perplexo fixou frente ao aparato";
+var sub = texto8.substring(16,24);//posição onde começa e onde termina
+console.log(sub);
+//outra forma
+var sub2 = texto8.substr(10, 4)//posição onde começa e quantos caracteres
+console.log(sub2)
+
+//substituir partes de uma string (método replace)
+
+var texto9 = "O rato roeu a roupa do rei de roma!"
+var novoTexto = texto9.replace("rato","coelho");
+console.log(texto9)
+console.log(novoTexto)
+
+//maiúsculas e minúsculas (método toUpperCase e toLoweCase)
+var texto10 = "O RATO Roeu a rOUpa do rei de Roma"
+console.log(texto10.toUpperCase());
+console.log(texto10.toLowerCase());
+
+//limpando espaços em banco (Método trim) (tira os espaços em branco)
+
+var texto11 = "         Texto aqui no meio             "
+
+console.log(`******`,texto11,`******`)
+console.log(`*****`,texto11.trim(),`*****`)
+
+//Buscando a posição de um string (Método indexof)
+
+var texto12 = "O rato roeu a roupa do rato de Roma";
+
+var posicao = texto12.indexOf("rato")
+var Ultimaposicao = texto12.lastIndexOf("rato");
+console.log(`primeira ocorrencia: ${posicao}- ultima ocorrencia: ${Ultimaposicao}`)
+
+//dividindo uma string em partes (Método split)
+var texto13 = "O rato roeu a roupa do rei de Roma!";
+var palavras = texto13.split(" ");
+console.table(palavras);
+
+var chaveAcesso = "1234-5678-9012-3456";
+var partes = chaveAcesso.split("-");
+console.table(partes);
